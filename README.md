@@ -4,20 +4,21 @@ Machine Learning–based web app for early detection of Chronic Kidney Disease (
 
 
 
-🩺 Early Chronic Kidney Disease (CKD) Detection
+**🩺 Early Chronic Kidney Disease (CKD) Detection**
 
 A machine learning–powered web app for early detection of Chronic Kidney Disease (CKD).
 The app allows users to input clinical test values and instantly get a prediction on whether a person is likely to have CKD.
 
 🚀 Live Web App
+👉 [Click here to try the app](https://rahul446k-early-ckd-detection.streamlit.app/)
 
-📌 Overview
+**📌 Overview**
 
 Early diagnosis of CKD helps prevent kidney failure and improves patient outcomes.
 This project uses a trained ML pipeline to analyze medical features like blood pressure, hemoglobin, blood glucose, and other indicators to predict CKD risk.
 The model was trained, saved, and deployed using Streamlit for an interactive web experience.
 
-🧠 Features
+**🧠 Features**
 
 Interactive and clean Streamlit interface
 
@@ -27,7 +28,7 @@ Categorized input fields for better usability
 
 Smooth gradient and centered layout for better visuals
 
-🧩 Tech Stack
+**🧩 Tech Stack**
 
 Python
 Pandas, NumPy, scikit-learn, joblib
@@ -35,7 +36,7 @@ Streamlit (for UI and deployment)
 Git & GitHub (for version control)
 
 
-⚙️ How to Run Locally
+**⚙️ How to Run Locally**
 
 Clone the repository
 
@@ -61,10 +62,8 @@ streamlit run app.py
 
 Open the local URL shown in the terminal (usually http://localhost:8501).
 
-
-
-
-📊 Dataset
+**
+📊 Dataset**
 
 The dataset used for training includes patient details such as:
 Age, Blood Pressure, Specific Gravity
@@ -73,7 +72,7 @@ Diabetes, Hypertension, Anemia, and more
 
 
 
-🧪 Model Details
+**🧪 Model Details**
 
 Handled missing and categorical data during preprocessing
 Tested multiple classifiers and selected the best performing one
@@ -81,7 +80,7 @@ Model stored as ckd_model_bundle.joblib for deployment
 Predictions are made using the trained ML pipeline
 
 
-🌐 Deployment
+**🌐 Deployment**
 
 The project is deployed using Streamlit Cloud and can be accessed here:
 🔗 https://rahul446k-early-ckd-detection.streamlit.app/
